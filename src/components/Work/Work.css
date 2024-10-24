@@ -1,0 +1,43 @@
+.work {
+    font-family: "Heebo";
+    text-align: left;
+    padding: 0 9rem;
+    margin: 50px 0;
+}
+
+.work__title {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 55px;
+    color: var(--color-sub-title);
+}
+
+.work__content {
+    width: 90%;
+    margin: 40px;
+    text-align: right;
+    font-size: 24px;
+    color: var(--color-green-light);
+}
+
+.work__content--text-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.work__content--text-list li {
+    margin: 0 0 50px 0;
+}
+
+.work__content--text-description {
+    color: var(--color-green-light);
+    font-weight: 500;
+}
+
+.work__content--text-company {
+    font-size: 50px;
+    font-weight: 100;
+    color: #fff;
+}
+

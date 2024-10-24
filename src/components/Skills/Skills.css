@@ -1,0 +1,37 @@
+.skills {
+    font-family: "Heebo";
+    text-align: left;
+    padding: 0 9rem;
+    margin: 50px 0;
+}
+
+.skills__title {
+    width: 35%;
+    margin: 0 auto;
+    font-size: 55px;
+    color: var(--color-sub-title);
+}
+
+.skills__content {
+    display: flex;
+    width: 50%;
+    margin: 40px auto;
+    text-align: left;
+    font-size: 24px;
+    color: var(--color-green-light);
+}
+
+.skills__content--cosmetic {
+    margin: 0;
+    background: no-repeat url('../../assets/images/cosmetic-skills.svg');
+    width: 290px;
+    height: 600px;
+
+}
+
+.skills__content--text-list {
+    margin: 0 50px;
+    padding: 0;
+    list-style-type: none;
+}
+

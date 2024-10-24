@@ -1,0 +1,30 @@
+.navigation {
+    max-width: 60%;
+    margin-left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation > ul > li {
+    list-style-type: none;
+    margin: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navigation > ul > li > a {
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem;
+    border-radius: 25px;
+    height: 100%;
+}
+
+.navigation > ul > li > a:hover {
+    background-color: var(--navigation-button-hover);
+}

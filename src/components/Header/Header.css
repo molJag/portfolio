@@ -1,0 +1,9 @@
+header {
+    display: flex;
+    padding: 2rem 4rem;
+    height: 0;
+}
+
+header > .logo {
+    width: 30vw;
+}

@@ -1,0 +1,16 @@
+{
+    "title": "I'm a frontend developer based in Spain.",
+    "subtitle": "Part coder",
+    "skills": [
+        "JavaScript",
+        "Typescript",
+        "Vuejs 2+",
+        "React 18+",
+        "Angular 8, 10, 12, 16",
+        "HTML5 / CSS3",
+        "Unit testing with Jest, Karma",
+        "GIT flow",
+        "Java",
+        "Nodejs"
+    ]
+}

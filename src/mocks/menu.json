@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Home",
+    "ancle": "home"
+  },
+  {
+    "name": "About",
+    "ancle": "about"
+  },
+  {
+    "name": "Skills",
+    "ancle": "skills"
+  },
+  {
+    "name": "My work",
+    "ancle": "my-work"
+  },
+  {
+    "name": "Contact",
+    "ancle": "contact"
+  }
+]

@@ -1,0 +1,45 @@
+{
+    "title": "My experience",
+    "experiences": [
+        {
+            "dates": "Nov 2021 - now",
+            "role": "Software engineer",
+            "companyName": "COGNIZANT"
+        },
+        {
+            "dates": "2019 - 2021",
+            "role": "Team lead & Scrum master",
+            "companyName": "ACCENTURE INTERACTIVE"
+        },
+        {
+            "dates": "2017 - 2019",
+            "role": "Team lead developer",
+            "companyName": "ACCENTURE INTERACTIVE"
+        },
+        {
+            "dates": "2016 - 2017",
+            "role": "Full stack developer",
+            "companyName": "ACCENTURE INTERACTIVE"
+        },
+        {
+            "dates": "2016",
+            "role": "Full stack developer",
+            "companyName": "DOCTOR SEO"
+        },
+        {
+            "dates": "2015 - 2016",
+            "role": "Full stack developer",
+            "companyName": "SPORT50"
+        },
+        {
+            "dates": "2015",
+            "role": "Full stack developer",
+            "companyName": "ALCALATEK"
+        },
+        {
+            "dates": "2015",
+            "role": "Full stack developer",
+            "companyName": "ALCALATEK"
+        }
+    ]
+}
