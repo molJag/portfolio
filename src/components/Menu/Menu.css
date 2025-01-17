@@ -1,5 +1,8 @@
-.navigation {
-    max-width: 60%;
+@import '../../common/styles/_variables.scss';
+
+.navigation.desktop {
+    display: none;
+    max-width: 80%;
     margin-left: 0;
     padding: 0;
     margin: 0;
@@ -27,4 +30,85 @@
 
 .navigation > ul > li > a:hover {
     background-color: var(--navigation-button-hover);
+}
+
+.navigation > ul > li > a:active {
+    background-color: var(--navigation-button-hover);
+}
+
+#hamburger {
+    display: none;
+}
+
+#hamburger-logo {
+    position: absolute;
+    right: 2rem;
+    top: 50px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#hamburger-logo img {
+    height: 30px;
+}
+
+.navigation.desktop {
+    display: none;
+}
+
+.navigation.mobile {
+    display: flex;
+    width: 100vw;
+}
+
+.navigation.mobile {
+    width: calc(100vw + 2rem);
+    height: 100vh;
+    transform: translateX(100vw);
+}
+
+.navigation.mobile {
+    transition: 0.7s;
+}
+
+.navigation.mobile .list-item {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 60px;
+    height: 100vh;
+    width: 140vw;
+    z-index: 1;
+    background-color: var(--main-bg-color);
+    margin: 0;
+    padding: 0;
+}
+
+.navigation.mobile .list-item li {
+    font-size: 60px;
+    text-align: center;
+}
+
+#hamburger:checked ~ .navigation.mobile {
+    transform: translateX(-45vw);
+}
+
+@media (min-width: 992px) {
+    .navigation.desktop {
+        display: block;
+        max-width: 70%;
+    }
+    .navigation.mobile {
+        display: none;
+    }
+    #hamburger-logo {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navigation {
+        display: block;
+        max-width: 80%;
+    }
 }

@@ -1,8 +1,23 @@
+@import './common/styles/_variables.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
 body {
+  margin: 0;
+  padding: 0;
+  min-width: fit-content;
+}
+
+body {
+  position: absolute;
   margin: 0;
   font-family: "Urbanist", 'Segoe UI', 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
 }
 
 :root {
@@ -12,6 +27,7 @@ body {
 
   --color-sub-title: #E0DACD;
   --color-green-light: #C8D4AF;
+  --color-red: #ff7081;
 }
 
 h*, p {

@@ -12,7 +12,7 @@
 .contact-section > .wrapper-contact {
     text-align: center;
     font-family: "Heebo";
-    width: 80%;
+    width: 100%;
     min-height: 60vh;
     font-size: 50px;
     font-weight: 400;
@@ -25,7 +25,7 @@
 
 .contact-section > .wrapper-contact > .main-contact {
     background-color: var(--main-bg-color);
-    margin: 5rem 15rem;
+    margin: 0;
     padding: 2rem;
     color: var(--color-sub-title, '#E0DACD');
     font-weight: 400;
@@ -44,13 +44,14 @@
 
 form.contact-form {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 24px;
     font-size: 18px;
     column-gap: 40px;
 }
 
 .contact-form .input-block {
-    flex: calc(50% - 40px);
+    flex: 100%;
 }
 
 .contact-form .input-block > label,
@@ -61,7 +62,7 @@ form.contact-form {
 
 .contact-form .input-block-100 {
     flex: 100%;
-    margin-top: 40px;
+    margin-top: 0;
 }
 
 .contact-form .input-block-100 > *,
@@ -70,5 +71,41 @@ form.contact-form {
 }
 
 .btn.btn-secondary {
+    width: 100%;
     margin: 40px auto 0;
+}
+
+.error-message {
+    font-size: 20px;
+    color: var(--color-red, #ff7081);
+}
+
+.success-message {
+    font-size: 20px;
+    color: var(--color-green-light, #C8D4AF);
+}
+
+@media (min-width: 992px) {
+    .contact-section > .wrapper-contact > .main-contact {
+        margin: 5rem 15rem;
+    }
+
+    .btn.btn-secondary {
+        width: auto;
+    }
+
+    .contact-form .input-block {
+        flex: calc(50% - 40px);
+    }
+
+    form.contact-form {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contact-form .input-block-100 {
+        margin-top: 40px;
+    }
+    .contact-section > .wrapper-contact {
+        width: 80%;
+    }
 }

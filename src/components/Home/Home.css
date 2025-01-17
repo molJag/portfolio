@@ -1,34 +1,42 @@
 .home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    margin: 0;
     padding: 0;
-    width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     background-image: url('../../assets/images/john-bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .home-section > .main-title-home {
-    position: absolute;
-    text-align: center;
-    line-height: 10px;
-    left: 50%;
-    top: 40%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     color: #fff;
     opacity: .7;
+    text-align: center;
 }
 
 .home-section > .main-title-home h2 {
-    font-size: 120px;
+    font-size: 7rem;
+    margin: 0;
     font-weight: 400;
     text-transform: uppercase;
 }
 
 .home-section > .main-title-home h3 {
     font-family: "Heebo";
-    font-size: 40px;
+    font-size: 3rem;
     font-weight: 400;
+    margin-top: 24px;
+}
+
+@media (min-width: 992px) {
+    .home-section > .main-title-home h2 {
+        font-size: 10rem;
+    }
+    
+    .home-section > .main-title-home h3 {
+        font-family: "Heebo";
+        font-size: 5rem;
+    }
 }

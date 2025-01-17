@@ -35,6 +35,6 @@ function App() {
       </Viewport>
     </div>
   );
-}
+};
 
 export default App;

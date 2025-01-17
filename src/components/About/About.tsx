@@ -13,7 +13,6 @@ function About() {
       <div className="about__content">
         <p>{mockData.description}</p>
         <p>{mockData.description2}</p>
-        <button className="btn secondary">{mockData.cv}</button>
       </div>
     </section>
   );

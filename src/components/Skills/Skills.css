@@ -6,7 +6,7 @@
 }
 
 .skills__title {
-    width: 35%;
+    width: 100%;
     margin: 0 auto;
     font-size: 55px;
     color: var(--color-sub-title);
@@ -14,7 +14,8 @@
 
 .skills__content {
     display: flex;
-    width: 50%;
+    justify-content: center;
+    width: 100%;
     margin: 40px auto;
     text-align: left;
     font-size: 24px;
@@ -23,15 +24,24 @@
 
 .skills__content--cosmetic {
     margin: 0;
-    background: no-repeat url('../../assets/images/cosmetic-skills.svg');
-    width: 290px;
-    height: 600px;
+    width: 100%;
+    min-height: 700px;
 
 }
 
 .skills__content--text-list {
     margin: 0 50px;
     padding: 0;
+    width: 60%;
     list-style-type: none;
 }
 
+@media (min-width: 992px) {
+    .skills__title {
+        width: 35%;
+    }
+
+    .skills__content--cosmetic {
+        width: 40%;
+    }
+}

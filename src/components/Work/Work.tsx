@@ -19,7 +19,7 @@ function Work() {
                   {`${skill.dates} / ${skill.role}`}
                 </span>
                 <span className="work__content--text-company">
-                  {skill.role}
+                  {skill.companyName}
                 </span>
               </li>
             );

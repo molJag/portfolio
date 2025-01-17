@@ -1,9 +1,21 @@
 header {
+    position: fixed;
+    top: 0;
     display: flex;
     padding: 2rem 4rem;
     height: 0;
+    z-index: 2;
+    height: 140px;
+    width: 100%;
+    background-color: var(--main-bg-color, #6E7462);
 }
 
 header > .logo {
     width: 30vw;
+}
+
+@media (min-width: 992px) {
+    header {
+        height: 150px;
+    }
 }
