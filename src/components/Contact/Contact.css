@@ -54,6 +54,10 @@ form.contact-form {
 .contact-form .input-block {
   flex: 100%;
 }
+.contact-form .input-block input::placeholder,
+.contact-form .input-block-100 input::placeholder {
+  color: var(--color-green-light);
+}
 
 .contact-form .input-block > label,
 .contact-form .input-block-100 > label {
