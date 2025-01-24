@@ -1,47 +1,51 @@
+.skills,
+.skills__content {
+  letter-spacing: 1px;
+}
 .skills {
-    font-family: "Heebo";
-    text-align: left;
-    padding: 0 9rem;
-    margin: 50px 0;
+  font-family: "Heebo";
+  text-align: left;
+  padding: 0 9rem;
+  margin: 50px 0;
 }
 
 .skills__title {
-    width: 100%;
-    margin: 0 auto;
-    font-size: 55px;
-    color: var(--color-sub-title);
+  width: 100%;
+  margin: 0 auto;
+  font-size: 55px;
+  color: var(--color-sub-title);
 }
 
 .skills__content {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 40px auto;
-    text-align: left;
-    font-size: 24px;
-    color: var(--color-green-light);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 40px auto;
+  text-align: left;
+  font-size: 24px;
+  color: var(--color-green-light);
+  line-height: 2;
 }
 
 .skills__content--cosmetic {
-    margin: 0;
-    width: 100%;
-    min-height: 700px;
-
+  margin: 0;
+  width: 100%;
+  min-height: 700px;
 }
 
 .skills__content--text-list {
-    margin: 0 50px;
-    padding: 0;
-    width: 60%;
-    list-style-type: none;
+  margin: 80px 50px;
+  padding: 0;
+  width: 60%;
+  list-style-type: none;
 }
 
 @media (min-width: 992px) {
-    .skills__title {
-        width: 35%;
-    }
+  .skills__title {
+    width: 35%;
+  }
 
-    .skills__content--cosmetic {
-        width: 40%;
-    }
+  .skills__content--cosmetic {
+    width: 20%;
+  }
 }

@@ -1,18 +1,19 @@
-@import '../../common/styles/_variables.scss';
+@import "../../common/styles/_variables.scss";
 
 .screen {
-    min-height: 100vh;
-    min-width: 100%;
+  min-height: 100vh;
+  min-width: 100%;
 }
 
 .screen > section {
-    margin: 96px 24px 0 24px;
-    padding: 0;
+  margin: 96px 24px 0 24px;
+  padding: 0;
 }
 
 @media (min-width: 992px) {
-    .screen > section {
-        margin: auto;
-        padding-top: 120px;
-    }
+  .screen > section {
+    margin: auto;
+    padding-top: 120px;
+    margin-top: 50px;
+  }
 }

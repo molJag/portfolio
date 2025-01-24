@@ -1,4 +1,4 @@
-@import './common/styles/_variables.scss';
+@import "./common/styles/_variables.scss";
 
 * {
   box-sizing: border-box;
@@ -14,23 +14,24 @@ body {
 body {
   position: absolute;
   margin: 0;
-  font-family: "Urbanist", 'Segoe UI', 'Roboto', sans-serif;
+  font-family: "Urbanist", "Segoe UI", "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
 }
 
 :root {
-  --main-bg-color: #6E7462;
-  --secondary-bg-color: #E0DACD;
+  --main-bg-color: #6e7462;
+  --secondary-bg-color: #e0dacd;
   --navigation-button-hover: #929789;
 
-  --color-sub-title: #E0DACD;
-  --color-green-light: #C8D4AF;
+  --color-sub-title: #e0dacd;
+  --color-green-light: #c8d4af;
   --color-red: #ff7081;
 }
 
-h*, p {
+h*,
+p {
   font-family: "Urbanist", sans-serif;
 }
 
@@ -50,14 +51,15 @@ body {
   padding: 10px 25px;
   border: 1px solid var(--color-green-light);
   border-radius: 30px;
-  color: #fff;
-  background-color: transparent
+  color: #e0dacd;
+  background-color: transparent;
 }
 
 .btn.btn-secondary {
-  font: "Urbanist", sans-serif;
+  font: "Heebo";
+  letter-spacing: 1px;
   font-size: 16px;
-  border: 1px solid var(--secondary-bg-color, '#E0DACD');
+  border: 1px solid var(--secondary-bg-color, "#E0DACD");
 }
 
 h2 > .highlight {
@@ -69,7 +71,7 @@ input {
   padding: 10px;
   border-radius: 30px;
   background: transparent;
-  border: 1px solid var(--secondary-bg-color, '#E0DACD');
+  border: 1px solid var(--secondary-bg-color, "#E0DACD");
   font: "Urbanist", sans-serif;
   font-size: 15px;
   color: #fff;

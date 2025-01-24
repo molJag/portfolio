@@ -1,42 +1,45 @@
 .home-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    padding: 0;
-    min-height: 100vh;
-    background-image: url('../../assets/images/john-bg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url("../../assets/images/john-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .home-section > .main-title-home {
-    color: #fff;
-    opacity: .7;
-    text-align: center;
+  color: #fff;
+  opacity: 0.7;
+  text-align: center;
 }
 
 .home-section > .main-title-home h2 {
-    font-size: 7rem;
-    margin: 0;
-    font-weight: 400;
-    text-transform: uppercase;
+  font-size: 8rem;
+  letter-spacing: 8px;
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .home-section > .main-title-home h3 {
-    font-family: "Heebo";
-    font-size: 3rem;
-    font-weight: 400;
-    margin-top: 24px;
+  font-family: "Heebo";
+  color: #f3e6cc;
+  letter-spacing: 0.5px;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: -5px;
 }
 
 @media (min-width: 992px) {
-    .home-section > .main-title-home h2 {
-        font-size: 10rem;
-    }
-    
-    .home-section > .main-title-home h3 {
-        font-family: "Heebo";
-        font-size: 5rem;
-    }
+  .home-section > .main-title-home h2 {
+    font-size: 8rem;
+  }
+
+  .home-section > .main-title-home h3 {
+    font-family: "Heebo";
+    font-size: 2.5rem;
+  }
 }

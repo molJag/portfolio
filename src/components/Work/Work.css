@@ -1,54 +1,54 @@
 .work {
-    font-family: "Heebo";
-    text-align: left;
-    padding: 0 9rem;
-    margin: 50px 0;
+  font-family: "Heebo";
+  text-align: left;
+  padding: 0 9rem;
+  margin: 50px 0;
 }
 
 .work__title {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 55px;
-    color: var(--color-sub-title);
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 55px;
+  color: var(--color-sub-title);
 }
 
 .work__content {
-    width: 90%;
-    margin: 40px;
-    text-align: right;
-    font-size: 24px;
-    color: var(--color-green-light);
+  width: 75%;
+  margin: 40px;
+  text-align: right;
+  font-size: 24px;
+  color: var(--color-green-light);
 }
 
 .work__content--text-list {
-    padding: 0;
-    list-style-type: none;
+  padding: 0;
+  list-style-type: none;
 }
 
 .work__content--text-list li {
-    margin: 0 0 50px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  margin: 0 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media (min-width: 992px) {
-    .work__content--text-list li {
-        flex-direction: row;
-        justify-content: end;
-    }
+  .work__content--text-list li {
+    flex-direction: row;
+    justify-content: end;
+  }
 }
 
 .work__content--text-description {
-    color: var(--color-green-light);
-    font-weight: 500;
+  color: var(--color-green-light);
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 10px;
 }
 
 .work__content--text-company {
-    padding-left: 8px;
-    font-size: 40px;
-    font-weight: 100;
-    color: #fff;
+  font-size: 40px;
+  font-weight: 100;
+  color: #fff;
 }
-

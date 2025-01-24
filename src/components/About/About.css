@@ -1,18 +1,15 @@
-@media (min-width: 1200px) {
-    .about__title,
-    .about__content {
-        width: 35%;
-    }
+.about__content {
+  margin: 0 100px;
 }
 
 .about {
-    font-family: "Heebo";
-    text-align: left;
-    padding: 0 9rem;
+  font-family: "Heebo";
+  text-align: left;
+  padding: 0 9rem;
 }
 
 .about > .separator {
-  height: 2rem;
+  height: 4rem;
   text-align: right;
   background-image: url("../../assets/images/separator.svg");
   background-repeat: no-repeat;
@@ -20,18 +17,25 @@
 }
 
 .about__title,
-.about__content {
-    width: 80%;
-    margin: 0 auto;
+.about__content-text {
+  width: 100%;
+  letter-spacing: 1px;
 }
 
 .about__title {
-    font-size: 55px;
-    color: var(--color-sub-title);
+  font-size: 55px;
+  color: var(--color-sub-title);
 }
 
-.about__content {
-    text-align: left;
-    font-size: 24px;
-    color: var(--color-green-light);
+.about__content-text {
+  text-align: left;
+  font-size: 24px;
+  color: var(--color-green-light);
+  width: 55%;
+}
+
+@media (min-width: 993px) {
+  .about__content {
+    margin: 0 300px;
+  }
 }

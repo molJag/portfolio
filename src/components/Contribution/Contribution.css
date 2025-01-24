@@ -1,72 +1,74 @@
 .contribution {
-    font-family: "Heebo";
-    text-align: left;
-    padding: 0 9rem;
-    margin: 70px 0;
+  font-family: "Heebo";
+  text-align: left;
+  padding: 0 9rem;
+  margin: 70px 0;
 }
 
 .contribution__title {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 38px;
-    margin-bottom: 50px;
-    color: var(--color-sub-title);
+  width: 55%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 50px;
+  color: var(--color-sub-title);
+  letter-spacing: 1px;
 }
 
 .contribution-wrapper {
-    width: 100%;
-    min-height: 100vh;
-    margin: 0 auto;
-    text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .contribution__content {
-    width: 100%;
-    padding: 100px;
-    text-align: center;
-    font-size: 24px;
-    color: var(--color-green-light);
+  width: 100%;
+  padding: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 24px;
+  color: var(--color-green-light);
 }
 
 .contribution__content-list {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 48px;
-    padding: 0;
-    list-style-type: none;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 48px;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-between;
 }
 
-.contribution__content-list li{
-    margin: 0 0 50px 0;
-    flex: 50%;
+.contribution__content-list li {
+  margin: 0 0 50px 0;
+  flex: 50%;
 }
 
 @media (min-width: 992px) {
-    .contribution-wrapper {
-        width: 80%;
-        min-height: 450px;
-    }
+  .contribution-wrapper {
+    width: 80%;
+    min-height: 450px;
+  }
 
-    .contribution__content-list li:not(:first-of-type) {
-        margin-top: 0;
-    }
+  .contribution__content-list li:not(:first-of-type) {
+    margin-top: 0;
+  }
 
-    .contribution__content-list {
-        flex-direction: row;
-        gap: 0;
-    }
+  .contribution__content-list {
+    flex-direction: row;
+    gap: 0;
+  }
 }
 
 @media (min-width: 1200px) {
-    .contribution-wrapper {
-        background-image: url('../../assets/images/cosmetic-clients.svg');
-        background-repeat: no-repeat;
-    }
+  .contribution-wrapper {
+    background-image: url("../../assets/images/cosmetic-clients.svg");
+    background-repeat: no-repeat;
+  }
 
-    .contribution__content {
-        width: 80%;
-    }
+  .contribution__content {
+    width: 80%;
+  }
 }

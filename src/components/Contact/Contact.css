@@ -1,111 +1,114 @@
 .contact-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin: 0;
-    padding: 100px 0;
-    width: 100%;
-    background-color: var(--secondary-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  padding: 100px 0;
+  width: 100%;
+  background-color: var(--secondary-bg-color);
 }
 
 .contact-section > .wrapper-contact {
-    text-align: center;
-    font-family: "Heebo";
-    width: 100%;
-    min-height: 60vh;
-    font-size: 50px;
-    font-weight: 400;
-    background-color: var(--main-bg-color);
-    background-image: url('../../assets/images/john-bg.svg');
-    background-position: 0%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  text-align: left;
+  font-family: "Heebo";
+  letter-spacing: 1px;
+  width: 100%;
+  min-height: 60vh;
+  font-size: 50px;
+  font-weight: 400;
+  background-color: var(--main-bg-color);
+  background-image: url("../../assets/images/john-bg.svg");
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact-section > .wrapper-contact > .main-contact {
-    background-color: var(--main-bg-color);
-    margin: 0;
-    padding: 2rem;
-    color: var(--color-sub-title, '#E0DACD');
-    font-weight: 400;
+  background-color: var(--main-bg-color);
+  margin: 0;
+  padding: 2rem;
+  color: var(--color-sub-title, "#E0DACD");
+  font-weight: 400;
 }
 
 .contact-section > .wrapper-contact > .main-contact h3 {
-    line-height: 50px;
-    color: var(--secondary-bg-color);
+  line-height: 50px;
+  color: var(--secondary-bg-color);
 }
 
 .contact-section > .wrapper-contact > .main-contact h3 > span {
-    margin: 0;
-    font-size: 45px;
-    color: var(--color-green-light);
+  margin: 0;
+  font-size: 45px;
+  color: var(--color-green-light);
 }
 
 form.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    font-size: 18px;
-    column-gap: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 18px;
+  column-gap: 40px;
 }
 
 .contact-form .input-block {
-    flex: 100%;
+  flex: 100%;
 }
 
 .contact-form .input-block > label,
 .contact-form .input-block-100 > label {
-    display: block;
-    text-align: left;
+  display: block;
+  text-align: left;
+  margin-bottom: 15px;
 }
 
 .contact-form .input-block-100 {
-    flex: 100%;
-    margin-top: 0;
+  flex: 100%;
+  margin-top: 0;
 }
 
 .contact-form .input-block-100 > *,
 .contact-form .input-block > * {
-    width: 100%;
+  width: 100%;
 }
 
 .btn.btn-secondary {
-    width: 100%;
-    margin: 40px auto 0;
+  width: 100%;
+  margin: 10px auto 0;
 }
 
 .error-message {
-    font-size: 20px;
-    color: var(--color-red, #ff7081);
+  font-size: 20px;
+  color: var(--color-red, #ff7081);
 }
 
 .success-message {
-    font-size: 20px;
-    color: var(--color-green-light, #C8D4AF);
+  font-size: 20px;
+  color: var(--color-green-light, #c8d4af);
 }
 
 @media (min-width: 992px) {
-    .contact-section > .wrapper-contact > .main-contact {
-        margin: 5rem 15rem;
-    }
+  .contact-section > .wrapper-contact > .main-contact {
+    margin: 5rem 7rem;
+  }
 
-    .btn.btn-secondary {
-        width: auto;
-    }
+  .btn.btn-secondary {
+    width: auto;
+  }
 
-    .contact-form .input-block {
-        flex: calc(50% - 40px);
-    }
+  .contact-form .input-block {
+    flex: calc(50% - 40px);
+  }
 
-    form.contact-form {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .contact-form .input-block-100 {
-        margin-top: 40px;
-    }
-    .contact-section > .wrapper-contact {
-        width: 80%;
-    }
+  form.contact-form {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .contact-form .input-block-100 {
+    margin-top: 40px;
+  }
+  .contact-section > .wrapper-contact {
+    width: 80%;
+    margin-bottom: 4rem;
+  }
 }
