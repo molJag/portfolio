@@ -1,4 +1,5 @@
 import "./Work.css";
+import cosmeticStoneSvg from "../../assets/images/cosmetic-stone.svg";
 
 import mockData from "../../mocks/work.json";
 import { WorkType } from "./work.model";
@@ -26,6 +27,7 @@ function Work() {
           })}
         </ul>
       </div>
+      <div className="footer-decoration"><img src={cosmeticStoneSvg} alt="decorative stone" /></div>
     </section>
   );
 }

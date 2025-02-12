@@ -1,7 +1,11 @@
+import nodeSvg from '../../assets/icons/node.svg';
+import reactSvg from '../../assets/icons/vuejs.svg';
+import angularSvg from '../../assets/icons/angular.svg';
+import backendSvg from '../../assets/icons/backend.svg';
+
 import "./Skills.css";
 
 import mockData from "../../mocks/skills.json";
-import cosmeticImg from '../../assets/images/cosmetic-skills.svg';
 
 function Skills() {
   return (
@@ -11,16 +15,42 @@ function Skills() {
       </h2>
 
       <div className="skills__content">
-        <div className="skills__content--cosmetic">
-          <img src={cosmeticImg} alt="" />
-        </div>
-        <div className="skills__content--text">
-          <ul className="skills__content--text-list">
-            {mockData.skills.map((skill: string[], index: number) => (
-              <li key={index}>{skill}</li>
-            ))}
-          </ul>
-        </div>
+        <ul className="skills__content-list">
+          <li className="skills__content-list-item">
+            <header className='skills__content-header'>
+              <div className="skills__content-header--logos">
+                <img src={reactSvg} alt="react js" />
+                <img src={angularSvg} alt="angular js" />
+              </div>
+              Backend development
+            </header>
+            <p>
+              I have experience in backend development creating scalable solutions. Wheter you need API development, database design, I have experience in developing backend services using Nodejs, PHP etc.
+            </p>
+          </li>
+          <li className="skills__content-list-item">
+            <header className='skills__content-header'>
+              <div className="skills__content-header--logos">
+                <img src={nodeSvg} alt="node js" />
+                <img src={backendSvg} alt="node js" /><br/>
+              </div>
+              Frontend Angular o React
+            </header>
+            <p>
+              I specialize in front-end development for creating scalable and high performance web applications using Angular, React and others library.
+            </p>
+          </li>
+          <li className="skills__content-list-item">
+            <header className='skills__content-header'>
+              <div className="skills__content-header--logos">
+              </div>
+              SEO / Google Analytics
+            </header>
+            <p>
+              I optimize websites for performance and SEO, ensuring better search engine rankings and user experience.
+            </p>
+          </li>
+        </ul>
       </div>
     </section>
   );

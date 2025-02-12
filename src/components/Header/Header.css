@@ -1,4 +1,4 @@
-header {
+.main-header {
   position: fixed;
   top: 0;
   display: flex;
@@ -10,12 +10,12 @@ header {
   background-color: var(--main-bg-color, #6e7462);
 }
 
-header > .logo {
+.main-header > .logo {
   width: 30vw;
 }
 
 @media (min-width: 992px) {
-  header {
+  .main-header {
     height: 130px;
   }
 }

@@ -1,19 +1,21 @@
 @import "../../common/styles/_variables.scss";
 
 .screen {
-  min-height: 100vh;
   min-width: 100%;
 }
 
+.screen.min-full-height {
+  min-height: 100vh;
+}
+
 .screen > section {
-  margin: 96px 24px 0 24px;
-  padding: 0;
+  margin: 96px 0 0;
+  padding: 0 24px;
 }
 
 @media (min-width: 992px) {
   .screen > section {
     margin: auto;
-    padding-top: 120px;
-    margin-top: 50px;
+    margin-top: 48px;
   }
 }

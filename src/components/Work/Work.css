@@ -13,11 +13,14 @@
   color: var(--color-sub-title);
 }
 
+.footer-decoration {
+  text-align: center;
+}
+
 .work__content {
-  width: 75%;
-  margin: 40px;
-  text-align: right;
-  font-size: 24px;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
   color: var(--color-green-light);
 }
 
@@ -34,9 +37,14 @@
 }
 
 @media (min-width: 992px) {
-  .work__content--text-list li {
-    flex-direction: row;
-    justify-content: end;
+  .footer-decoration {
+    display: none;
+  }
+
+  .work__content {
+    width: 80%;
+    margin: auto;
+    font-size: 24px;
   }
 }
 

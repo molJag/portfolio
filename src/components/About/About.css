@@ -1,11 +1,15 @@
-.about__content {
-  margin: 0 100px;
-}
-
 .about {
   font-family: "Heebo";
   text-align: left;
   padding: 0 9rem;
+}
+
+.about__wrapper {
+  display: flex;
+}
+
+.about__image {
+  display: none;
 }
 
 .about > .separator {
@@ -31,11 +35,24 @@
   text-align: left;
   font-size: 24px;
   color: var(--color-green-light);
-  width: 55%;
+  width: 100%;
 }
 
 @media (min-width: 993px) {
+  .about__wrapper {
+    justify-content: center;
+    gap: 48px;
+  }
+
+  .about__image {
+    display: flex;
+  }
+
+  .about__image img {
+    width: 180px;
+  }
+
   .about__content {
-    margin: 0 300px;
+    width: 60%;
   }
 }

@@ -13,7 +13,7 @@ import Work from "./components/Work/Work";
 function App() {
   return (
     <div className="app" id="home">
-      <Viewport>
+      <Viewport {...{classes: ['min-full-height']}}>
         <Header />
         <Home />
       </Viewport>

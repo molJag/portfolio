@@ -2,11 +2,17 @@ footer {
     display: flex;
     align-items: center;
     padding: 2rem 4rem;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    gap: 32px;
+    align-items: center;
 }
 
 footer > .logo {
     display: flex;
-    width: 70vw;
     align-items: center;
 }
 

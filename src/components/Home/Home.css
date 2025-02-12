@@ -5,9 +5,12 @@
   position: relative;
   padding: 0;
   min-height: 100vh;
-  background-image: url("../../assets/images/john-bg.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
+  @media (min-width: 992px) {
+    background-image: url("../../assets/images/john-bg.svg");
+    background-repeat: no-repeat;
+    background-size: calc(100% - 4rem);
+  }
 }
 
 .home-section > .main-title-home {
@@ -15,8 +18,15 @@
   opacity: 0.7;
   text-align: center;
 }
-
 .home-section > .main-title-home h2 {
+  font-size: 2rem;
+  letter-spacing: 4px;
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.home-section > .main-title-home h2 span {
   font-size: 8rem;
   letter-spacing: 8px;
   margin: 0;
@@ -34,8 +44,8 @@
 }
 
 @media (min-width: 992px) {
-  .home-section > .main-title-home h2 {
-    font-size: 8rem;
+  .home-section > .main-title-home h2 span {
+    font-size: 7rem;
   }
 
   .home-section > .main-title-home h3 {
